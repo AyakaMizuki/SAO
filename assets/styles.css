@@ -11,6 +11,16 @@ div.container {
 	width:100%;
 }
 
+.carousel-item {
+  height: 100%;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #content_d {
   display: none;
   font-family: Times New Roman;
