@@ -57,6 +57,34 @@ div.container {
   max-width: 100px;
   max-height: 100px; }
 
+/*Contact*/
+
+#contacto{
+  background: radial-gradient(#5BFFEE, #46D1FF,#020AA2);
+  letter-spacing: 2px;
+  border: 1px solid #48CFFB;
+  height: 50%;
+  border-radius: 10px;
+  box-shadow: 5px 10px 7px rgba(0, 0, 0, 0.5);
+  }
+
+
+.boton_enviar, .boton_borrar{
+  width: 20%;
+  float: right;
+  margin-right: 97px; 
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: linear-gradient(#fff, #ccffff, #5a5a5a);
+}
+.boton_enviar:hover, .boton_borrar:hover{
+  width: 20%;
+  float: right; 
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: linear-gradient(#5a5a5a, #ccffff, #fff);
+}
+
 /*Footer*/
 a:hover{
     text-decoration:none;
